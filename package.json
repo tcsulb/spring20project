@@ -1,0 +1,24 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "Course project - Tianna Hydro",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tcsulb/project.git"
+  },
+  "author": "Tianna Hydro",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tcsulb/project/issues"
+  },
+  "homepage": "https://github.com/tcsulb/project#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "multer": "^1.4.2"
+  }
+}

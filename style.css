@@ -2,4 +2,21 @@ body {
     margin: 30px;
 }
 
+.nav-header .navbar-brand .nav-buttons {
+    display: inline-flex;
+}
 
+.navbar-brand > .nav-b {
+    display: inline-flex;
+    flex-wrap: wrap;
+    text-overflow: ellipsis;
+    font-weight: lighter;
+    font-stretch: narrower;
+    text-align: top;
+}
+
+.nav-buttons {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
